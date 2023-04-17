@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  background: linear-gradient(180deg, #009688 10%, #DBDBD3 10%);
+}
+
+/*main-wrapper*/
+
+.main-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  height: 800px;
+  width: 80%;
+  background-color:#EAEAEA;
+  
+  margin-top: 30px;
+}
+
+.band-left{
+  height: 80px;
+  width: 35%;
+  background-color: bisque;
+  
+}
+
+.band-right{
+  height: 80px;
+  width: 65%;
+  background-color: bisque;
+}
